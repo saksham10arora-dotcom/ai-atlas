@@ -1,0 +1,16 @@
+{
+  "name": "ai-atlas",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Learn all of AI three ways: see the map, get taught, build it yourself.",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:atlas": "npm run dev -w apps/atlas",
+    "dev:tutor": "npm run dev -w apps/tutor",
+    "dev:playground": "npm run dev -w apps/playground",
+    "build": "npm run build -w apps/atlas && npm run build -w apps/tutor && npm run build -w apps/playground",
+    "typecheck": "npm run typecheck -w apps/atlas && npm run typecheck -w apps/tutor && npm run typecheck -w apps/playground"
+  }
+}
