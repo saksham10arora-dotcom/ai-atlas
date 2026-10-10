@@ -2,7 +2,7 @@
 
 **Learn all of AI three ways: see the map, get taught, build it yourself.**
 
-One repo, three machines. Each attacks the same body of knowledge from a different angle, because reading about attention, being quizzed on attention, and implementing attention are three completely different skills.
+One repo, three machines. Each attacks the same body of knowledge from a different angle, because reading about attention, being quizzed on attention, and implementing attention are three completely different skills. yes
 
 ```
 ┌─────────────────────────────────────────────────────────┐
